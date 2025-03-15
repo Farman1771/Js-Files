@@ -1,0 +1,12 @@
+in this code i have traverse on string.
+then convert every char to ascci using charCodeAt method
+then add 3 to every Ascii converted char 
+then convert it back to string using String.fromCharCode
+
+let str="abc"
+let s=""
+for(i=0;i<str.length;i++)
+{
+    s=str.charCodeAt(i)+3
+    console.log(String.fromCharCode(s))
+}
